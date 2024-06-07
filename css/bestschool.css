@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #ff8800;
+    width: 100%;
+    height: 60px;
+}
+
+.banner {
+    background: url(https://bestschool.net.in/templates/purity_iii/images/bg.jpg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 100px;
+}
+
+.h h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.h p {
+    text-align: center;
+}
+.space{
+    width: 100%;
+    padding: 0 90px;
+    margin-top: 30px;
+}
+.space .img12{
+    width: 360px;
+    height: 250px;
+    float: left;
+    margin: 14px;
+}
+.space .img12  img{
+    width: 100%;
+}
+.space .img12 h4{
+    text-align: center;
+    margin-top: -23px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px white;
+}

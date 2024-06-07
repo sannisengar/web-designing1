@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    position: fixed;
+    top: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff2b85;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.banner h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 120px;
+}
+
+.banner input {
+    width: 600px;
+    height: 35px;
+    font-size: 15px;
+    background: #000000c4;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 3px 4px 15px #0f4ed1;
+}
+
+::placeholder {
+    color: white;
+}
+
+.news {
+    background: #00000087;
+    width: 100%;
+    height: 60px;
+    margin-top: -20px;
+}
+
+.news marquee {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.about {
+    width: 100%;
+    padding: 140px 200px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #ff2b85;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    line-height: 26px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.about button {
+    width: 140px;
+    height: 40px;
+    background: #ff2b85;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 11px;
+}
+
+.about button:hover {
+    background: linear-gradient(to right, orange, greenyellow);
+}
+
+.press {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../image/foodpanda-home-2-650x366.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    padding: 130px 200px;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+.press h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #ff2b85;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.press p {
+    line-height: 26px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.press button {
+    width: 140px;
+    height: 40px;
+    background: #ff2b85;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 11px;
+}
+
+.team {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../image/WhatsApp\ Image\ 2024-01-27\ at\ 22.06.20_2b0770ec.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    padding: 130px 200px;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+.team h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #ff2b85;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.team p {
+    line-height: 26px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.team button {
+    width: 140px;
+    height: 40px;
+    background: #ff2b85;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 11px;
+}
+
+.contectus {
+    background: #ff2b85;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    padding: 130px 200px;
+    text-align: center;
+    color: white;
+}
+
+.contectus h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #0b0105;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.contectus p {
+    line-height: 26px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: black;
+    width: 100%;
+    height: 300px;
+}
